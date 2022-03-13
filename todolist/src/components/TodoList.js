@@ -24,6 +24,7 @@ class TodoList extends Component {
           <input
             type="checkbox"
             onChange={this.props.onComplete}
+            checked={this.props.onChecked}
           />
 
           {this.props.taskEditing === this.props.id ?
@@ -32,6 +33,7 @@ class TodoList extends Component {
               id="edit-input"
               value={this.props.editingText}
               onChange={this.props.onChangeInput}
+
             />)
             :
             (<p

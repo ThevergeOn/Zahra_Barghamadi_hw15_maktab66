@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 0.8rem;
-  /* border-bottom: 1px solid rgb(202, 199, 199); */
+  border-bottom: 1px solid gray;
 }
 .todo-list-items li div {
   display: flex;
@@ -98,7 +98,7 @@ margin-right: 1rem;
 #edit-input{
   margin-left: 1rem;
   border:1px solid gray;
-  width:40%;
+  width:60%;
   padding: 6px 10px;
   font-family:"Josefin Sans", sans-serif;
 }
